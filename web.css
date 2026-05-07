@@ -1,0 +1,38 @@
+element.style {
+    opacity: 1;
+    visibility: visible;
+    animation: auto ease 0s 1 normal none running none;
+}
+html.i-amphtml-fie:not(.i-amphtml-inabox)>body, html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body {
+    position: relative !important;
+}
+html.i-amphtml-fie>body, html.i-amphtml-singledoc>body {
+    overflow: visible !important;
+}
+html:not([amp4ads]) body {
+    margin: 0 !important;
+}
+html:not([amp4ads]), html:not([amp4ads]) body {
+    height: auto !important;
+}
+body {
+    background: #000;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+body {
+body {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
